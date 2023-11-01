@@ -1,18 +1,17 @@
 import { ISiteConfig } from "@/types"
 
 export const siteConfig: ISiteConfig = {
-  name: "Notionfol.io", // shown in the header
+  name: "Intan Blog", // shown in the header
   description:
-    "Make your own personal website with portfolio , blog, courses and more using notion as a CMS, in minutes with Next.js and Vercel.",
+    "Welcome to my blog, where I write about a wide variety of topics.",
   image: "/images/screenshots/screenshot01.png",
   links: {
     // order is same order in the footer (when link added it's shown in the footer)
-    mail: "hello@mehdibha.co",
-    linkedin: "https://linkedin.com/mehdibha",
-    github: "https://github.com/mehdibha",
-    twitter: "https://twitter.com/mehdibha_",
-    instagram: "https://www.instagram.com/mehdibha.com",
-    codepen: "https://codepen.io/mehdi-ben-hadj-ali",
+    mail: "Intanrizkikarlinda@gmail.com",
+    linkedin: "https://www.linkedin.com/in/intan-rizki-karlinda-604470224",
+    github: "https://github.com/Intanrkld",
+    twitter: "https://twitter.com/",
+    instagram: "https://www.instagram.com/intanrkld",
   },
   header: {
     logo: "/images/logo.png",
@@ -25,27 +24,26 @@ export const siteConfig: ISiteConfig = {
         title: "Blog",
         href: "/blog",
       },
-      {
-        title: "Courses",
-        href: "/courses",
-      },
-      {
-        title: "Useful tools",
-        href: "/tools",
-      },
+      // {
+      //   title: "Courses",
+      //   href: "/courses",
+      // },
+      // {
+      //   title: "Useful tools",
+      //   href: "/tools",
+      // },
     ],
   },
   heroBanner: {
     title: {
       1: [
-        { text: "Hey there. I'm " },
-        { text: "Notionfol.io", highlighted: true },
+        { text: "Welcome to my blog" },
         { text: "." },
       ],
-      2: [{ text: "An awesome open-source project." }],
+      2: [{ text: "𝐼𝓃𝓉𝒶𝓃 𝑅𝒾𝓏𝓀𝒾 𝒦𝒶𝓇𝓁𝒾𝓃𝒹𝒶." }],
     },
     subtitle:
-      "Make your own portfolio + Notion-powered blog in minutes with Next.js and Vercel.",
+      "From personal experiences to diverse interests, my blog is a space where I share it all.",
     callToActions: [
       {
         label: "Read the blog",
