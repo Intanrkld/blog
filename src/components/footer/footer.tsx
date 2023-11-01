@@ -44,7 +44,7 @@ export const Footer = async () => {
           <p>
             All rights reserved ©{" "}
             <a
-              href="https://github.com/Mehdi-BHA/notionfolio"
+              href="https://intanrkld.vercel.app/"
               target="_blank"
               className="hover:underline"
             >
@@ -56,23 +56,13 @@ export const Footer = async () => {
             <p>
               Website powered by{" "}
               <a
-                href="https://github.com/Mehdi-BHA/notionfolio"
+                href="https://nextjs.org/"
                 target="_blank"
                 className="hover:underline"
               >
-                notionfol.io.
+                Next.js.
               </a>
             </p>
-            <div className="text-foreground-secondary flex items-center space-x-2 text-sm">
-              <div className="flex items-center space-x-1">
-                <Star size={16} />
-                <span>{starsCount}</span>
-              </div>
-              <div className="flex items-center space-x-1">
-                <GitFork size={16} />
-                <span>{forksCount}</span>
-              </div>
-            </div>
           </div>
         </div>
         <div className="flex space-x-1">
