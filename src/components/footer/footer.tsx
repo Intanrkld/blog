@@ -56,13 +56,23 @@ export const Footer = async () => {
             <p>
               Website powered by{" "}
               <a
-                href="https://nextjs.org/"
+                href="https://github.com/Mehdi-BHA/notionfolio"
                 target="_blank"
                 className="hover:underline"
               >
-                Next.js
+                notionfol.io.
               </a>
             </p>
+            <div className="text-foreground-secondary flex items-center space-x-2 text-sm">
+              <div className="flex items-center space-x-1">
+                <Star size={16} />
+                <span>{starsCount}</span>
+              </div>
+              <div className="flex items-center space-x-1">
+                <GitFork size={16} />
+                <span>{forksCount}</span>
+              </div>
+            </div>
           </div>
         </div>
         <div className="flex space-x-1">
