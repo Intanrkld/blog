@@ -44,7 +44,7 @@ export const Footer = async () => {
           <p>
             All rights reserved ©{" "}
             <a
-              href="https://intanrkld.vercel.app/"
+              href="https://github.com/Mehdi-BHA/notionfolio"
               target="_blank"
               className="hover:underline"
             >
