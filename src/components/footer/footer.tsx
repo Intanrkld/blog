@@ -60,7 +60,7 @@ export const Footer = async () => {
                 target="_blank"
                 className="hover:underline"
               >
-                Next.js.
+                Next.js
               </a>
             </p>
           </div>
